@@ -16,7 +16,7 @@ Tradeoffs
 - FV vs library ( React - lightweight, use with existing app
 
     -- Features
-    --- Components
+        -- Components
     --- Testing - Jest,Mocha
     --- HTTP Library - Fetch, Axios
     --- Routing- React Router
