@@ -15,9 +15,9 @@ Why React?
 Tradeoffs
 - FV vs library ( React - lightweight, use with existing app
 
-    -- Features
-        -- Components
-    --- Testing - Jest,Mocha
+    - Features
+        - Components
+        - Testing - Jest,Mocha
     --- HTTP Library - Fetch, Axios
     --- Routing- React Router
     --- l18n - react-intl
