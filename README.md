@@ -15,22 +15,22 @@ Why React?
 Tradeoffs
 - FV vs library ( React - lightweight, use with existing app
 
-    --Features
-    ---Components
-    ---Testing - Jest,Mocha
-    ---HTTP Library - Fetch, Axios
-    ---Routing- React Router
-    ---l18n - react-intl
-    ---Animation react-motion
-    ---Form Validation- react-forms
-    ---CLI - create-react-app
+    -- Features
+    --- Components
+    --- Testing - Jest,Mocha
+    --- HTTP Library - Fetch, Axios
+    --- Routing- React Router
+    --- l18n - react-intl
+    --- Animation react-motion
+    --- Form Validation- react-forms
+    --- CLI - create-react-app
 
-    ---more control, more explicit, easy to debug
-    ---unique - as plain js editors provide auto complete
-    ---little framework-specific syntax instead it has plain js
+    --- more control, more explicit, easy to debug
+    --- unique - as plain js editors provide auto complete
+    --- little framework-specific syntax instead it has plain js
     ---markup and HTML collocated in same file
 
-    ---jsx for markuup
-    ---declare react components
-    ---css modules,css in js inline
+    --- jsx for markuup
+    --- declare react components
+    --- css modules,css in js inline
 
