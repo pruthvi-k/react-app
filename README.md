@@ -34,3 +34,15 @@ Tradeoffs
         - declare react components
         - css modules,css in js inline
 
+ - Components
+    - State: Used when a component needs to change independently of its parent
+    - Default Props: used when not providing properties as attributes (getDefaultProps function react 0.13.3)
+    - Validating Props: propTypes object is used to validate properties ( required, data type or custom validation)
+    - Mixins: behaviour required for many components; reuse between components (ex. visually highlight component on rendering)
+
+ - JSX
+    - xml-like syntax inline in js
+    - each element is transformed into js function call
+
+    - for not using JSX skip directly to the output of jsx transformer
+
