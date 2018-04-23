@@ -12,6 +12,17 @@ Why React?
 - Performance (minimize dom changes as its expensive)
 - Testability (run in-memory test via node - jest )
 
+- Components
+    - like functions
+    - Reusable and composable
+    - can manage private state
+- Reactive updates
+    - React will react
+    - Take updates to the browser
+- Virtual views in memory
+    - Write Html in Javascript
+    - Tree reconciliation
+
 Tradeoffs
 - FV vs library ( React - lightweight, use with existing app
 
