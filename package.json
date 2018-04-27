@@ -1,0 +1,41 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "Demo React application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pruthvi-k/react-app.git"
+  },
+  "keywords": [
+    "react",
+    "learn"
+  ],
+  "author": "pruthvi paghdal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pruthvi-k/react-app/issues"
+  },
+  "homepage": "https://github.com/pruthvi-k/react-app#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-eslint": "^4.0.2",
+    "gulp-open": "^3.0.1",
+    "jquery": "^3.3.1",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "gulp-concat": "^2.6.1",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

@@ -56,4 +56,8 @@ Tradeoffs
     - each element is transformed into js function call
 
     - for not using JSX skip directly to the output of jsx transformer
+    - Difference: className, htmlFor
 
+- Flux
+    - uni-directional data flows
+    - more a pattern than a library
