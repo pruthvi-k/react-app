@@ -61,3 +61,17 @@ Tradeoffs
 - Flux
     - uni-directional data flows
     - more a pattern than a library
+
+
+    props - allows to pass data down to child the child component, are immutable
+
+    state - mutable, use on controller views
+
+    - Life Cycle Methods
+      - componentWillMount: immidiately before initial render, both client and server, good place to set initial state
+      - componentDid Mount : After render, access DOM, integrate with frameworks, set timers, AJAX requests
+      - componsntWillReceiveProps: When receiving new props. not called on initial render, set sate before render
+      - shouldComponentUpdate: Before render when new props or state are being received, not called on initial render,For Performance. Return false to void unnecessary re-renders
+      - componentWillUpdate: immediately before rendering when new props or state are being received. Not called on initial render. Prepare for an update
+      - componentDidUpdate: After component's updates are flushed to the DOM. Not called for the initial render. Work with the DOM after an update
+      - compnentWillUnmount: Immediately before component is removed from the DOM, cleanup
