@@ -28,10 +28,13 @@
     "gulp-connect": "^5.5.0",
     "gulp-eslint": "^4.0.2",
     "gulp-open": "^3.0.1",
+    "install": "^0.11.0",
     "jquery": "^3.3.1",
     "loadash": "^1.0.0",
+    "npm": "^6.0.0",
     "react": "^0.13.3",
-    "react-router": "^0.13.3"
+    "react-router": "^0.13.3",
+    "toastr": "^2.1.4"
   },
   "devDependencies": {
     "browserify": "^16.2.0",
