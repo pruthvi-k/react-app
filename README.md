@@ -65,7 +65,7 @@ Tradeoffs
 
     props - allows to pass data down to child the child component, are immutable
 
-    state - mutable, use on controller views
+    state - mutable, use on controller views (controller view is nothing but a top level component which manages/handle its child component)
 
     - Life Cycle Methods
       - componentWillMount: immidiately before initial render, both client and server, good place to set initial state
@@ -75,3 +75,18 @@ Tradeoffs
       - componentWillUpdate: immediately before rendering when new props or state are being received. Not called on initial render. Prepare for an update
       - componentDidUpdate: After component's updates are flushed to the DOM. Not called for the initial render. Work with the DOM after an update
       - compnentWillUnmount: Immediately before component is removed from the DOM, cleanup
+
+- Hash VS. History URLs
+
+    - Hash Location                                             - History
+
+        - exampleUrl.com#/page                                      - exampleUrl.com/page
+        - ugly url                                                  - clean urls
+        - works in all browsers                                     - IE10+
+        - not compatible with server-render                         - works for server-render
+
+- Mixins
+    - share behaviour among multiple components ex. Navigation mixin helps to handle routes
+
+- Transitions: willTransitionTo and willTransitionFrom
+    - easy way to control transition from one page to another page ex. authenticate routes have access

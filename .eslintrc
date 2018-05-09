@@ -16,6 +16,12 @@
     "quotes": 0,
     "no-trailing-spaces": 0,
     "no-underscore-dangle": 0
+//    "react/jsx-no-bind": [<enabled>, {
+//  "ignoreRefs": <boolean> || false,
+//  "allowArrowFunctions": <boolean> || false,
+//  "allowFunctions": <boolean> || false,
+//  "allowBind": <boolean> || false
+//}]
   },
   "globals": {
     "jQuery": true,
