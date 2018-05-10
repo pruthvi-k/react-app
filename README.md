@@ -98,5 +98,5 @@ Tradeoffs
     - unidirectional data flow
 
      -> Action --> Dispatcher -> Store --> React View <br/>
-     &uparrow;                                  |<br/>                                  
+     &uparrow;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
      |__________________________________________| <br/><br/>
