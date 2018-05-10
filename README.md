@@ -97,6 +97,6 @@ Tradeoffs
     - Centralized dispatcher
     - unidirectional data flow
 
-     -> Action --> Dispatcher -> Store --> React View <br>
-     &uparrow;                                  | &nbsp;&nbsp;
-     |__________________________________________| &nbsp;&nbsp;
+     -> Action --> Dispatcher -> Store --> React View <br/>
+     &uparrow;                                  |<br/>
+     |__________________________________________| <br/><br/>
