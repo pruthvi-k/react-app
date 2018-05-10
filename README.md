@@ -90,3 +90,13 @@ Tradeoffs
 
 - Transitions: willTransitionTo and willTransitionFrom
     - easy way to control transition from one page to another page ex. authenticate routes have access
+
+
+- Flux
+    - A pattern not framework
+    - Centralized dispatcher
+    - unidirectional data flow
+
+     -> Action --> Dispatcher -> Store --> React View
+    &uparrow;                                  |
+    |__________________________________________|
