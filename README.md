@@ -99,4 +99,14 @@ Tradeoffs
 
      -> Action --> Dispatcher -> Store --> React View <br/>
      &uparrow;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
-     |__________________________________________| <br/><br/>
+     |____________________________________________| <br/><br/>
+
+    - Action :  User interaction that occur in react component, every action payload has type and data
+    - Dispatcher: actions handle by singleton dispatcher, it's a centralize registry, holds list of callback, broadcasts and distributes payload to stores based on registered callbacks
+    - Store: Holds app state and update data in view, contains models. One or many, registers callbacks with dispatcher, uses node's EventEmitter
+        - Every Store has common traits(interface)
+            1. Extend EventEmitter
+            2. addChangeListener and removeChangeListener
+            3. emitChange
+
+    - React View
