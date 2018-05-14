@@ -2,7 +2,6 @@
 
 var React = require('react');
 var AuthorStore = require('../../stores/authorStore');
-var AtuhorActions = require('../../actions/authorActions');
 var AuthorList = require('./authorList');
 var Link = require('react-router').Link;
 
@@ -11,6 +10,15 @@ var Authors = React.createClass({
     return {
       authors: AuthorStore.getAllAuthors()
     };
+  },
+  _onChange:function () {
+    this.setState({authors: AuthorStore.getAllAuthors()});
+  },
+  componentWillMount: function () {
+	AuthorStore.addChangeListener(this._onChange);
+  },
+  componentWillUnMount: function () {
+	AuthorStore.removeChangeListener(this._onChange);
   },
 
   render: function() {
